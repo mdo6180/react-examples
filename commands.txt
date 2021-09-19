@@ -1,0 +1,23 @@
+# initialize project
+npm init
+
+# install react and react-dom
+npm install --save react react-dom
+
+# install typescript as developer dependency
+npm install -D typescript
+
+# install libraries that enable us to use types within react and react-dom
+npm install -D @types/react-dom @types/react
+
+# install libraries that enable us to use types within node
+npm install -D @types/node
+
+# install webpack and webpack-cli to resolve imports in typescript
+npm install -D webpack webpack-cli
+
+# install ts-loader to enable us to load typescript files
+npm install -D ts-loader
+
+# run project
+npm run build
